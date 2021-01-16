@@ -1,0 +1,20 @@
+Here are the candidates and vote totals: 
+
+Khan :  
+	Percent of total: 65.62%
+	Actual Votes: 42
+
+Correy :  
+	Percent of total: 23.44%
+	Actual Votes: 15
+
+Li :  
+	Percent of total: 9.38%
+	Actual Votes: 6
+
+O'Tooley :  
+	Percent of total: 1.56%
+	Actual Votes: 1
+
+
+Total votes: 64
