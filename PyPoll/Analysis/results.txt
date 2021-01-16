@@ -1,20 +1,20 @@
 Here are the candidates and vote totals: 
 
 Khan :  
-	Percent of total: 65.62%
-	Actual Votes: 42
+	Percent of total: 63.00%
+	Actual Votes: 2218231
 
 Correy :  
-	Percent of total: 23.44%
-	Actual Votes: 15
+	Percent of total: 20.00%
+	Actual Votes: 704200
 
 Li :  
-	Percent of total: 9.38%
-	Actual Votes: 6
+	Percent of total: 14.00%
+	Actual Votes: 492940
 
 O'Tooley :  
-	Percent of total: 1.56%
-	Actual Votes: 1
+	Percent of total: 3.00%
+	Actual Votes: 105630
 
 
-Total votes: 64
+Total votes: 3521001

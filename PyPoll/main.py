@@ -2,7 +2,7 @@
 import os
 import csv
 
-poll_csv = os.path.join("Resources", "testpoll.csv")
+poll_csv = os.path.join("Resources", "election_data.csv")
 
 with open(poll_csv, 'r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter = ",")
@@ -45,16 +45,18 @@ output_path = os.path.join("Analysis", "results.txt")
 resultfile = open(output_path, "w") 
 
 toFile = f"Here are the candidates and vote totals: \n"
-
+print(toFile)
 resultfile.write(toFile + '\n')
 
 for candidate, resultnumbers in individualresults.items():
     tot = resultnumbers.pop()
     pct = resultnumbers.pop()
     resultfile.write(str(candidate))
+    print(str(candidate))
     resultfile.write(" :  \n")
     resultfile.write("\tPercent of total: " + str(pct) + '\n\tActual Votes: ' + str(tot) + '\n\n')
-   
+    print(("\tPercent of total: " + str(pct) + '\n\tActual Votes: ' + str(tot) + '\n\n'))
 resultfile.write("\nTotal votes: " + str(totalvote))
+print("Total votes: " + str(totalvote))
 
 resultfile.close()
